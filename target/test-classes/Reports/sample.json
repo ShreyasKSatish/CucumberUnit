@@ -1,0 +1,148 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-05-21T16:47:53.217Z",
+        "line": 13,
+        "name": "validating flight booking",
+        "description": "",
+        "id": "validating-demo-blaze-application;validating-flight-booking;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 29939000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "initialize application on the chrome browser",
+            "match": {
+              "location": "org.stepdef.StepDef.initialize_application_on_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 868000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter the Valid information on Departure \"Paris\" to Destination \"Rome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Paris\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"Rome\"",
+                  "offset": 69
+                }
+              ],
+              "location": "org.stepdef.StepDef.user_enter_the_Valid_information_on_Departure_to_Destination(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 836000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click find flights",
+            "match": {
+              "location": "org.stepdef.StepDef.click_find_flights()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 716000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click the selective flights",
+            "match": {
+              "location": "org.stepdef.StepDef.click_the_selective_flights()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2780000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter the name \"Satish\" address \"Walajapet\" city \"Vellore\" state \"Tamilnadu\" zip Code \"632513\" card Type \"American Express\" credit Card Number \"56456\" month \"11\" year \"2022\" name on Card \"Satish Kumar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Satish\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"Walajapet\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"Vellore\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"Tamilnadu\"",
+                  "offset": 65
+                },
+                {
+                  "val": "\"632513\"",
+                  "offset": 86
+                },
+                {
+                  "val": "\"American Express\"",
+                  "offset": 105
+                },
+                {
+                  "val": "\"56456\"",
+                  "offset": 143
+                },
+                {
+                  "val": "\"11\"",
+                  "offset": 157
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 167
+                },
+                {
+                  "val": "\"Satish Kumar\"",
+                  "offset": 187
+                }
+              ],
+              "location": "org.stepdef.StepDef.enter_the_name_address_city_state_zip_Code_card_Type_credit_Card_Number_month_year_name_on_Card(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "validate the purchase flight",
+            "match": {
+              "location": "org.stepdef.StepDef.validate_the_purchase_flight()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "validating Demo Blaze Application",
+    "description": "",
+    "id": "validating-demo-blaze-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Task.feature",
+    "tags": []
+  }
+]

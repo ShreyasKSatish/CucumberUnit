@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="38.731">
+<testcase classname="validating Demo Blaze Application" name="validating flight booking" time="36.131">
+<system-out><![CDATA[Given initialize application on the chrome browser..........................passed
+When user enter the Valid information on Departure "Paris" to Destination "Rome".passed
+And click find flights......................................................passed
+And click the selective flights.............................................passed
+And enter the name "Satish" address "Walajapet" city "Vellore" state "Tamilnadu" zip Code "632513" card Type "American Express" credit Card Number "56456" month "11" year "2022" name on Card "Satish Kumar".passed
+Then validate the purchase flight...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
